@@ -62,8 +62,16 @@
 
 
 
-function bark() {
-  console.log('Woof!');
-}
+// function bark() {
+//   console.log('Woof!');
+// }
 
-bark.animal = 'dog';
+// bark.animal = 'dog';
+
+
+
+
+let number = 0;
+console.log(number++);
+console.log(++number);
+console.log(number);

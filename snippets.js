@@ -93,11 +93,25 @@
 
 
 
-function getAge(...args) {
-  console.log(typeof args);
+// function getAge(...args) {
+//   console.log(typeof args);
+// }
+
+// getAge(21);
+
+
+
+
+function getAge() {
+  'use strict';
+  age = 21;
+  console.log(age);
 }
 
-getAge(21);
+getAge();
+
+
+
 
 
 

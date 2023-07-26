@@ -102,15 +102,21 @@
 
 
 
-function getAge() {
-  'use strict';
-  age = 21;
-  console.log(age);
-}
 
-getAge();
+// function getAge() {
+//   'use strict';
+//   age = 21;
+//   console.log(age);
+// }
+
+// getAge();
 
 
+
+
+
+const sum = eval('10*10+5');
+console.log(sum);
 
 
 

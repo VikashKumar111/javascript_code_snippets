@@ -140,8 +140,16 @@
 
 
 
-const obj = { a: 'one', b: 'two', a: 'three' };
-console.log(obj);
+// const obj = { a: 'one', b: 'two', a: 'three' };
+// console.log(obj);
+
+
+
+
+for (let i = 1; i < 5; i++) {
+  if (i === 3) continue;
+  console.log(i);
+}
 
 
 

@@ -153,13 +153,35 @@
 
 
 
-String.prototype.giveLydiaPizza = () => {
-  return 'Just give Lydia pizza already!';
-};
+// String.prototype.giveLydiaPizza = () => {
+//   return 'Just give Lydia pizza already!';
+// };
 
-const name = 'Lydia';
+// const name = 'Lydias';
 
-console.log(name.giveLydiaPizza())
+// console.log(name.giveLydiaPizza())
+
+
+
+
+// const a = {};
+// const b = { key: 'b' };
+// const c = { key: 'c' };
+
+// a[b] = 123;
+// a[c] = 456;
+
+// console.log(a[b]);
+
+
+
+const foo = () => console.log('First');
+const bar = () => setTimeout(() => console.log('Second'));
+const baz = () => console.log('Third');
+
+bar();
+foo();
+baz();
 
 
 

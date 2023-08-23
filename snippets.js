@@ -257,7 +257,16 @@
 
 
 
-console.log(typeof typeof 1);
+// console.log(typeof typeof 1);
+
+
+
+const numbers = [1, 2, 3];
+numbers[10] = 11;
+console.log(numbers);
+
+
+
 
 
 

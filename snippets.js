@@ -261,9 +261,23 @@
 
 
 
-const numbers = [1, 2, 3];
-numbers[10] = 11;
-console.log(numbers);
+// const numbers = [1, 2, 3];
+// numbers[10] = 11;
+// console.log(numbers);
+
+
+
+(() => {
+  let x, y;
+  try {
+    throw new Error();
+  } catch (x) {
+    (x = 1), (y = 2);
+    console.log(x);
+  }
+  console.log(x);
+  console.log(y);
+})();
 
 
 

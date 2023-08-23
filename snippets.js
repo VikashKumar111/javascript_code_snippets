@@ -235,14 +235,28 @@
 
 
 
-const person = { name: 'Lydia' };
+// const person = { name: 'Lydia' };
 
-function sayHi(age) {
-  return `${this.name} is ${age}`;
+// function sayHi(age) {
+//   return `${this.name} is ${age}`;
+// }
+
+// console.log(sayHi.call(person, 21));
+// console.log(sayHi.bind(person, 21));
+
+
+
+
+
+
+function sayHi() {
+  return (() => 0)();
 }
 
-console.log(sayHi.call(person, 21));
-console.log(sayHi.bind(person, 21));
+console.log(typeof sayHi());
+
+
+
 
 
 

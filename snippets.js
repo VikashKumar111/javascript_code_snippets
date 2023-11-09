@@ -54,19 +54,18 @@
 
 
 
-let greeting;
-greetign = {}; 
-console.log(greetign);
+// let greeting;
+// greetign = {}; 
+// console.log(greetign
 
 
 
 
+function bark() {
+  console.log('Woof!');
+}
 
-// function bark() {
-//   console.log('Woof!');
-// }
-
-// bark.animal = 'dog';
+bark.animal = 'dog';
 
 
 

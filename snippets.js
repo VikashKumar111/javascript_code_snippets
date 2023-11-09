@@ -54,9 +54,9 @@
 
 
 
-// let greeting;
-// greetign = {}; 
-// console.log(greetign);
+let greeting;
+greetign = {}; 
+console.log(greetign);
 
 
 

@@ -33,24 +33,24 @@
 
 
 
-let c = { greeting: 'Hey!' };
-let d;
+// let c = { greeting: 'Hey!' };
+// let d;
 
-d = c;
-c.greeting = 'Hello';
-console.log(d.greeting);
-
-
+// d = c;
+// c.greeting = 'Hello';
+// console.log(d.greeting);
 
 
 
-// let a = 3;
-// let b = new Number(3);
-// let c = 3;
 
-// console.log(a == b);
-// console.log(a === b);
-// console.log(b === c);
+
+let a = 3;
+let b = new Number(3);
+let c = 3;
+
+console.log(a == b);
+console.log(a === b);
+console.log(b === c);
 
 
 

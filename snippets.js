@@ -44,13 +44,13 @@
 
 
 
-let a = 3;
-let b = new Number(3);
-let c = 3;
+// let a = 3;
+// let b = new Number(3);
+// let c = 3;
 
-console.log(a == b);
-console.log(a === b);
-console.log(b === c);
+// console.log(a == b);
+// console.log(a === b);
+// console.log(b === c);
 
 
 
@@ -114,15 +114,15 @@ bark.animal = 'dog';
 
 
 
-// const sum = eval('10*10+5');
-// console.log(sum);
+const sum = eval('10*10+5');
+console.log(sum);
 
 
 
-// var num = 8;
-// var num = 10;
+var num = 8;
+var num = 10;
 
-// console.log(num);
+console.log(num);
 
 
 

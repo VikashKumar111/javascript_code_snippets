@@ -114,15 +114,15 @@ bark.animal = 'dog';
 
 
 
-const sum = eval('10*10+5');
-console.log(sum);
+// const sum = eval('10*10+5');
+// console.log(sum);
 
 
 
-var num = 8;
-var num = 10;
+// var num = 8;
+// var num = 10;
 
-console.log(num);
+// console.log(num);
 
 
 
@@ -174,13 +174,13 @@ console.log(num);
 
 
 
-// const foo = () => console.log('First');
-// const bar = () => setTimeout(() => console.log('Second'));
-// const baz = () => console.log('Third');
+const foo = () => console.log('First');
+const bar = () => setTimeout(() => console.log('Second'));
+const baz = () => console.log('Third');
 
-// bar();
-// foo();
-// baz();
+bar();
+foo();
+baz();
 
 
 

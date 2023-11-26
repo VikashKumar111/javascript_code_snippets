@@ -174,24 +174,24 @@ bark.animal = 'dog';
 
 
 
-const foo = () => console.log('First');
-const bar = () => setTimeout(() => console.log('Second'));
-const baz = () => console.log('Third');
+// const foo = () => console.log('First');
+// const bar = () => setTimeout(() => console.log('Second'));
+// const baz = () => console.log('Third');
 
-bar();
-foo();
-baz();
+// bar();
+// foo();
+// baz();
 
 
 
-// const person = { name: 'Lydia' };
+const person = { name: 'Lydia' };
 
-// function sayHi(age) {
-//   return `${this.name} is ${age}`;
-// }
+function sayHi(age) {
+  return `${this.name} is ${age}`;
+}
 
-// console.log(sayHi.call(person, 21));
-// console.log(sayHi.bind(person, 21));
+console.log(sayHi.call(person, 21));
+console.log(sayHi.bind(person, 21));
 
 
 
